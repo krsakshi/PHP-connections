@@ -10,7 +10,7 @@ class Fruit {
     return $this->name;
   }
 }
- 
+  
 $apple = new Fruit("Apple");
 echo $apple->get_name();
 ?>
